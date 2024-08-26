@@ -1,0 +1,37 @@
+{
+  "name": "blog-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.25.8",
+    "@strapi/plugin-users-permissions": "4.25.8",
+    "@strapi/plugin-i18n": "4.25.8",
+    "@strapi/plugin-cloud": "4.25.8",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "fcb8c2d5-f679-4bf6-a6cf-350789d0f2f2"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.2.2+sha512.c44e283c54e02de9d1da8687025b030078c1b9648d2895a65aab8e64225bfb7becba87e1809fc0b4b6778bbd47a1e2ab6ac647de4c5e383a53a7c17db6c3ff4b"
+}
